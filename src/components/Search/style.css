@@ -1,0 +1,32 @@
+.find_user {
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    background: none;
+    color: #ffffff;
+    width: 100%;
+    border-bottom: 1px grey solid;
+}
+.side_bar_users {
+    
+}
+.side_bar_user {
+    display: flex;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.user_avatar {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.user_text {
+    
+} 
+.user_last_messege {
+
+} 
+.err {
+    color: red;
+}

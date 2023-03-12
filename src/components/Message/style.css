@@ -1,0 +1,32 @@
+
+.message_owner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.message_user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.message_content {
+    background-color: #456799;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-top-right-radius: 1px;
+    height: fit-content;
+}
+.message_info {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main_chat_userimg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.main_chat_time {
+    color: #848687;
+}

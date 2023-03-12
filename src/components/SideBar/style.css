@@ -1,0 +1,33 @@
+.side_bar {
+    background-color: #32254f;
+    width: 20%;
+    height: 100vh;
+}
+
+.side_bar_myuser {
+    background-color: #22163d;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+.my_avatar {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user_name {
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: auto;
+}
+.logout_btn {
+    border: none;
+    background-color: #456799;
+    padding: 4px 7px;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

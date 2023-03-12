@@ -1,0 +1,33 @@
+.topbar {
+    background-color: #403063;
+}
+.topbarr_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.topbar_user_name {
+
+}
+.topbar_buttons {
+    
+}
+.topbar_buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.video_btn {
+    height: 15px;
+    width: 15px;
+    
+}
+.user_setting_btn {
+    height: 15px;
+    width: 15px;
+}
+.more_btn {
+    height: 15px;
+    width: 15px;
+}
