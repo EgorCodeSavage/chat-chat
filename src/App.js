@@ -1,6 +1,6 @@
 
 import { useContext } from "react";
-import {BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 import Login from "./components/LoginPage/Login";
 import Register from "./components/LoginPage/Register";
@@ -16,7 +16,7 @@ function App() {
 
   const ProtectedRoute = ({children}) => {
     if(!currentUser) {
-      return <Navigate to="/login"/>
+      return <Navigate to="chat-chat/login"/>
     }
     return children
   }
@@ -29,8 +29,8 @@ function App() {
                 <Route index element={<ProtectedRoute>
                     <Home />
                 </ProtectedRoute>} />
-                <Route path="login" element={<Login />} />
-                <Route path="register" element={<Register />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
 
           </Routes>  
         </Router> 
