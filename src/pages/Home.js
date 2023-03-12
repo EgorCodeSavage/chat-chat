@@ -6,8 +6,6 @@ import Sidebar from "./../components/SideBar/Sidebar";
 
 const Home = () => {
     
-
-
     return ( 
         <div className="home_page">
             <Sidebar />

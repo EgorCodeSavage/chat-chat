@@ -84,7 +84,7 @@ const Register = () => {
                     </form>
                     <div className="register">
                         <p>You dont have an account?</p>
-                        <NavLink to='/Login'>
+                        <NavLink to='/login'>
                             <p className="link_relog">Sing In</p>
                         </NavLink>
                         <div className="login_alert">{err}</div>
